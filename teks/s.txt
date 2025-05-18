@@ -1,0 +1,19 @@
+flowchart
+[Registrasi/Login Siswa]
+         ?
+     [Dashboard]
+         ?
+[Input Nilai Kriteria untuk Ekskul]
+         ?
+[Data Masuk ke saw_evaluations]
+         ?
+   [Proses SPK]
+   - Ambil Data: Alternatif, Kriteria, Evaluasi
+   - Normalisasi Matriks (SAW & TOPSIS)
+   - Hitung Skor SAW (nilai tertimbang)
+   - Hitung Jarak Ideal (TOPSIS)
+   - Gabungkan Skor
+         ?
+[Hasil Rekomendasi Ekskul]
+   - Ranking
+   - Tampilan Tabel / Grafik
